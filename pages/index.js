@@ -1,5 +1,12 @@
+import { Switch } from "antd";
+import { Fragment } from "react";
+
 function Homepage() {
-  return <h1>Homepage</h1>;
+  return (
+    <Fragment>
+      <Switch />
+    </Fragment>
+  );
 }
 
 export default Homepage;
